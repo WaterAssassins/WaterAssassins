@@ -17,6 +17,18 @@ app.get('/', function(req, res) {
   res.render('index');
 });
 
+app.get('/login', function(req, res) {
+  //TODO
+});
+
+app.get('/signup', function(req, res) {
+  //TODO
+});
+
+app.get('/profile', function(req, res) {
+  //TODO
+});
+
 app.listen(port, function() {
   console.log('our app is running on http://localhost' + port);
 });
